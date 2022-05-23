@@ -14,5 +14,5 @@ def find_index(nums, target):
         elif nums[index] < target:
             left = index
             
-a = find_index([1, 2, 3, 6, 7, 8, 14, 23, 56], 23)
-print(a)
+# a = find_index([1, 2, 3, 6, 7, 8, 14, 23, 56], 23)
+# print(a)

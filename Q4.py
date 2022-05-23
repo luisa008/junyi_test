@@ -5,5 +5,5 @@ def group(nums):
         output += min(nums[i], nums[i+1])
     return output
     
-a = group([6, 2, 6, 5, 1, 2])
-print(a)
+# a = group([6, 2, 6, 5, 1, 2])
+# print(a)
