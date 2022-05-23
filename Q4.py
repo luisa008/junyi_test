@@ -1,3 +1,6 @@
+'''input is a list
+output is a integer'''
+
 def group(nums):
     output = 0
     nums = sorted(nums)

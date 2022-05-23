@@ -1,3 +1,6 @@
+'''Input is a num
+output is a string'''
+
 def throw(num):
     output = []
     for i in range(1, num+1):
@@ -10,7 +13,9 @@ def test():
     a_t = [1, 2, 4, 7, 8, 11, 13, 14, 15]
     if(throw(a) == a_t): return True
 
-# a = throw(15)
-# print(a)
-
+# unit test
 print(test())
+
+# input
+# num = int(input())
+# print(throw(num))

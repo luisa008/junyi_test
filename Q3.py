@@ -1,3 +1,6 @@
+'''input is a list and a integer
+output is a integer'''
+
 def find_index(nums, target):
     # 使用二分搜（O(logn)）
     index = len(nums) // 2

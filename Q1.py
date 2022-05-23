@@ -1,3 +1,6 @@
+'''input is a word or sentence(string)
+output is the string'''
+
 def reverse(word):
     return word[::-1]
 
@@ -18,4 +21,5 @@ def test():
 # sentence = reverse_sentence("i have apple")
 # print(sentence)
 
+# test
 print(test())
